@@ -11,7 +11,8 @@
     "rollup-plugin-flow-entry": "^0.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "make dist"
   },
   "repository": {
     "type": "git",
