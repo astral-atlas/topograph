@@ -1,0 +1,23 @@
+{
+  "name": "topograph",
+  "version": "1.0.0",
+  "description": "topograph",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lk-contract": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astral-atlas/topograph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astral-atlas/topograph/issues"
+  },
+  "homepage": "https://github.com/astral-atlas/topograph#readme"
+}
