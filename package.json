@@ -2,10 +2,13 @@
   "name": "topograph",
   "version": "1.0.0",
   "description": "topograph",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
+  "main": "dist/topograph.cjs.js",
+  "dependencies": {
     "lk-contract": "^1.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.2",
+    "rollup-plugin-flow-entry": "^0.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
