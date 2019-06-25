@@ -1,6 +1,6 @@
 {
-  "name": "topograph",
-  "version": "1.2.0",
+  "name": "@astral-atlas/topograph",
+  "version": "1.3.0",
   "description": "topograph",
   "main": "dist/topograph.cjs.js",
   "dependencies": {
@@ -9,10 +9,6 @@
   "devDependencies": {
     "rollup": "^1.16.2",
     "rollup-plugin-flow-entry": "^0.3.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "make dist"
   },
   "repository": {
     "type": "git",
