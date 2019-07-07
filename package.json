@@ -2,7 +2,7 @@
   "name": "@astral-atlas/topograph",
   "version": "2.0.0",
   "description": "topograph",
-  "main": "dist/topograph.cjs.js",
+  "main": "src/topograph.js",
   "type": "module",
   "dependencies": {
     "lk-contract": "^1.0.1"
