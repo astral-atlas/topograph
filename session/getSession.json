@@ -1,0 +1,19 @@
+{
+  "name": "GET /sessions where there is more than one session",
+  "request": {
+    "method": "GET",
+    "path": "/sessions",
+    "headers": [
+      ["Origin", "www.external.example.com"]
+    ],
+    "body": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": [
+      ["Access-Control-Allow-Origin", "www.external.example.com"],
+      ["Content-Type", "application/json"]
+    ],
+    "body": "[{ \"name\": \"The Last Session\", \"id\": \"123-456-789\", \"startTime\": 0 },{ \"name\": \"The next Session\", \"id\": \"987-654-321\", \"startTime\": 100 }]"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "POST /sessions where the request is from an authorized user",
+  "request": {
+    "method": "POST",
+    "path": "/sessions",
+    "headers": [
+      ["Origin", "www.external.example.com"],
+      ["Authorization", "Basic example_authorization_token"]
+    ],
+    "body": "{ \"title\": \"The Last Session\", \"startTime\": 0 }"
+  },
+  "response": {
+    "status": 200,
+    "headers": [
+      ["Access-Control-Allow-Origin", "www.external.example.com"],
+      ["Content-Type", "application/json"]
+    ],
+    "body": "{ \"name\": \"The Last Session\", \"id\": \"123-456-789\", \"startTime\": 0 }"
+  }
+}
