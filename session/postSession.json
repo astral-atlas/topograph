@@ -15,6 +15,6 @@
       ["Access-Control-Allow-Origin", "www.external.example.com"],
       ["Content-Type", "application/json"]
     ],
-    "body": "{ \"name\": \"The Last Session\", \"id\": \"123-456-789\", \"startTime\": 0 }"
+    "body": "{ \"title\": \"The Last Session\", \"id\": \"123-456-789\", \"startTime\": 0 }"
   }
 }
