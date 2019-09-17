@@ -1,14 +1,11 @@
 {
   "name": "@astral-atlas/topograph",
-  "version": "1.3.1",
+  "version": "2.0.1",
   "description": "topograph",
-  "main": "dist/topograph.cjs.js",
+  "main": "src/topograph.js",
+  "type": "module",
   "dependencies": {
     "lk-contract": "^1.0.1"
-  },
-  "devDependencies": {
-    "rollup": "^1.16.2",
-    "rollup-plugin-flow-entry": "^0.3.1"
   },
   "repository": {
     "type": "git",

@@ -1,11 +1,7 @@
 // @flow
 import { createContract, createRequest, createResponse } from 'lk-contract';
-
-export const getUsersContract = createContract(
-  'GET /users',
-  createRequest('/users'),
-  createResponse(JSON.stringify([{ id: '123', name: 'luke kaalim' }, { id: '456', name: 'martin anthony '}]))
-);
+import { chapterContracts } from './chapters.js';
+import { userContracts } from './users.js';
 
 export const noAuthenticationContract = createContract(
   'Attempting to access an authorized endpoint without any authentication',
@@ -17,4 +13,11 @@ export const unknownRouteContract = createContract(
   'Attempting to GET a path that doesnt exist',
   createRequest('/userz', 'GET'),
   createResponse('Not Found', 404)
-)
+);
+
+export const contracts = {
+  ...chapterContracts,
+  ...userContracts,
+  unknownRouteContract,
+  noAuthenticationContract,
+};
