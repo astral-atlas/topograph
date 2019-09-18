@@ -1,0 +1,16 @@
+{
+  "name": "GET /sessions/latest where there are no sessions set beyond 5000",
+  "request": {
+    "method": "GET",
+    "path": "/sessions/latest?currentTime=7000",
+    "headers": [],
+    "body": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": [
+      ["Content-Type", "application/json"]
+    ],
+    "body": "null"
+  }
+}
