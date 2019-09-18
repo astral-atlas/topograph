@@ -1,0 +1,16 @@
+{
+  "name": "DELETE /sessions?id=123 where sessionId 123 doesn't exist",
+  "request": {
+    "method": "DELETE",
+    "path": "/sessions?id=123",
+    "headers": [],
+    "body": ""
+  },
+  "response": {
+    "status": 404,
+    "headers": [
+      ["Content-Type", "application/json"]
+    ],
+    "body": "{ \"statusMessage\": \"Not Found\" }"
+  }
+}

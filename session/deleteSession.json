@@ -1,0 +1,16 @@
+{
+  "name": "DELETE /sessions?id=123",
+  "request": {
+    "method": "DELETE",
+    "path": "/sessions?id=123",
+    "headers": [],
+    "body": ""
+  },
+  "response": {
+    "status": 200,
+    "headers": [
+      ["Content-Type", "application/json"]
+    ],
+    "body": ""
+  }
+}
